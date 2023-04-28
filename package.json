@@ -1,10 +1,13 @@
 {
-  "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
-  },
-  "devDependencies": {
-    "vitepress": "^1.0.0-alpha.74"
-  }
+    "scripts": {
+        "docs:dev": "vitepress dev src",
+        "docs:build": "vitepress build",
+        "docs:preview": "vitepress preview"
+    },
+    "devDependencies": {
+        "vitepress": "^1.0.0-alpha.74"
+    },
+    "dependencies": {
+        "vue3-html2pdf": "^1.1.2"
+    }
 }
