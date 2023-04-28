@@ -4,9 +4,7 @@
   ```bash
   npm install vue3-html2pdf
   ```
-<script>
-import Vue3ToPdf from '/components/html2pdf/Vue3ToPdf'
+<script setup>
+import VueToPdf from '../../../components/html2pdf/VueToPdf'
 </script>
-<template>
-  <vue3-to-pdf />
-</template>
+  <VueToPdf />
