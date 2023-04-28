@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+import Header from './menu/Header';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -6,11 +7,7 @@ export default defineConfig({
     description: 'A VitePress Site',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-        nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Examples', link: '/markdown-examples' },
-        ],
-
+        nav: Header,
         sidebar: [
             {
                 text: 'Examples',
