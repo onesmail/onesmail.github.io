@@ -1,5 +1,7 @@
 # git config查看配置
+```sh
 git config --list
+```
 
 # Github 设置登录账号密码
 
