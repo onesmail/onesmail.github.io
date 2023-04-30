@@ -104,7 +104,6 @@ import {
     workListSplitForRepeat,
 } from './js/util';
 import html2canvas from 'html2canvas';
-import { exportExcel } from './js/excel.js';
 
 const props = defineProps({
     data: {
@@ -664,13 +663,6 @@ const exportGanttExcel = file => {
         }
         return item;
     });
-    exportExcel(
-        file,
-        rangeDate.value,
-        excelData,
-        props.dateText,
-        props.itemText
-    );
 };
 
 defineExpose({

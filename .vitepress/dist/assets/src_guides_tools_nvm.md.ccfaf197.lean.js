@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as e,O as t}from"./chunks/framework.d4a93d33.js";const u=JSON.parse('{"title":"更换NVM源","description":"","frontmatter":{},"headers":[],"relativePath":"src/guides/tools/nvm.md"}'),o={name:"src/guides/tools/nvm.md"},n=t("",5),l=[n];function r(c,p,i,d,m,_){return a(),e("div",null,l)}const g=s(o,[["render",r]]);export{u as __pageData,g as default};

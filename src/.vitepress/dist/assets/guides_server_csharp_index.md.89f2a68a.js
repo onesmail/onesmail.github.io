@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r}from"./chunks/framework.0bda0072.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guides/server/csharp/index.md","lastUpdated":1682695505000}'),a={name:"guides/server/csharp/index.md"};function s(n,c,o,d,i,p){return t(),r("div")}const f=e(a,[["render",s]]);export{m as __pageData,f as default};

@@ -5,7 +5,3 @@
   npm install vue3-html2pdf
   ```
 
-<script setup>
-import vue3-gantt from "/components/vue3-gantt/index.vue"
-</script>
-<vue3-gantt></vue3-gantt>

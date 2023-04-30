@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as o,O as l}from"./chunks/framework.d4a93d33.js";const D=JSON.parse('{"title":"git config查看配置","description":"","frontmatter":{},"headers":[],"relativePath":"src/guides/tools/git.md"}'),n={name:"src/guides/tools/git.md"},t=l("",10),e=[t];function p(c,r,i,C,y,g){return a(),o("div",null,e)}const u=s(n,[["render",p]]);export{D as __pageData,u as default};

@@ -1,47 +1,19 @@
 {
-  "hash": "65ef3898",
-  "browserHash": "b98abca2",
+  "hash": "b543697e",
+  "browserHash": "e7c077c4",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "46056e3b",
+      "fileHash": "cef261cc",
       "needsInterop": false
     },
     "@theme/index": {
       "src": "../../../../node_modules/vitepress/dist/client/theme-default/index.js",
       "file": "@theme_index.js",
-      "fileHash": "b641af2e",
-      "needsInterop": false
-    },
-    "lodash/cloneDeep": {
-      "src": "../../../../node_modules/lodash/cloneDeep.js",
-      "file": "lodash_cloneDeep.js",
-      "fileHash": "d53e96a6",
-      "needsInterop": true
-    },
-    "html2canvas": {
-      "src": "../../../../node_modules/html2canvas/dist/html2canvas.esm.js",
-      "file": "html2canvas.js",
-      "fileHash": "667217c4",
-      "needsInterop": false
-    },
-    "lay-excel": {
-      "src": "../../../../node_modules/lay-excel/src/excel.js",
-      "file": "lay-excel.js",
-      "fileHash": "877a7846",
-      "needsInterop": false
-    },
-    "@ctrl/tinycolor": {
-      "src": "../../../../node_modules/@ctrl/tinycolor/dist/module/public_api.js",
-      "file": "@ctrl_tinycolor.js",
-      "fileHash": "c20f7aa7",
+      "fileHash": "fc831acd",
       "needsInterop": false
     }
   },
-  "chunks": {
-    "chunk-HYZYPRER": {
-      "file": "chunk-HYZYPRER.js"
-    }
-  }
+  "chunks": {}
 }
