@@ -4,6 +4,7 @@ import sidebar from './menu/sidebar';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    base: '/bar/',
     lastUpdated: true,
     title: '首页',
     description: '我的学习文档',
