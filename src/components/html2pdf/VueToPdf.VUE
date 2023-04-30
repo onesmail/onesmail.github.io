@@ -1,3 +1,7 @@
-<template>test</template>
-<script></script>
-<style scoped="scoped"></style>
+<script setup></script>
+
+<template>
+    <div>123</div>
+</template>
+
+<style lang="scss" scoped></style>
