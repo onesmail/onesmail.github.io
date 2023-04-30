@@ -1,3 +1,5 @@
+import "./chunk-HYZYPRER.js";
+
 // node_modules/vitepress/dist/client/theme-default/index.js
 import "C:/Users/lang_/Desktop/onesmail.github.io/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
 

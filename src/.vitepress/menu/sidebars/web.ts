@@ -1,16 +1,38 @@
 export default [
     {
-        text: 'Examples',
+        text: '插件',
         items: [
             {
-                text: 'html转PDF',
+                text: 'Vue',
+                collapsed: true,
+                items: [
+                    {
+                        text: 'vue3 html转PDF',
+                        link: '/guides/web/framework/vue3topdf',
+                    },
+                    {
+                        text: 'Runtime API Examples',
+                        link: '/guides/web/framework/vue3gantt',
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        text: '插件',
+        items: [
+            {
+                text: 'Vue',
                 collapsed: false,
                 items: [
                     {
                         text: 'vue3 html转PDF',
                         link: '/guides/web/framework/vue3topdf',
                     },
-                    { text: 'Runtime API Examples', link: '/api-examples' },
+                    {
+                        text: 'Runtime API Examples',
+                        link: '/guides/web/framework/vue3gantt',
+                    },
                 ],
             },
         ],

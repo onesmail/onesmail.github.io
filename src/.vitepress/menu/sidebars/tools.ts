@@ -20,7 +20,6 @@ export default [
                 text: 'nvm',
                 link: '/guides/tools/nvm',
             },
-            { text: 'oh-my-posh', link: '/guides/tools/ohmyposh' },
         ],
     },
 ];

@@ -6,6 +6,6 @@
   ```
 
 <script setup>
- import VueToPdf from '/components/html2pdf/VueToPdf.vue'
+import vue3-gantt from "/components/vue3-gantt/index.vue"
 </script>
-<!-- <VueToPdf /> -->
+<vue3-gantt></vue3-gantt>

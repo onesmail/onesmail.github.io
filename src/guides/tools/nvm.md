@@ -8,7 +8,3 @@ C:\Users\<用户名>\AppData\Roaming\nvm
 node_mirror: https://npm.taobao.org/mirrors/node/
 npm_mirror: https://npm.taobao.org/mirrors/npm/
 ```
-<CustomComponent />
-<script setup>
-import CustomComponent from '/components/html2pdf/VueToPdf.vue'
-</script>

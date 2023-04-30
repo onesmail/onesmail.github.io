@@ -17,5 +17,15 @@ export default defineConfig({
                 link: 'https://github.com/onesmail/onesmail.github.io',
             },
         ],
+        editLink: {
+            pattern: 'https://onesmail.github.io/:path',
+            text: '在 github 上编辑此页',
+        },
+        outlineTitle: '当前页',
+        docFooter: {
+            prev: '上一页',
+            next: '下一页',
+        },
+        lastUpdatedText: '最后更新',
     },
 });
