@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as r}from"./chunks/framework.d4a93d33.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"src/guides/server/dotnetcore/index.md"}'),s={name:"src/guides/server/dotnetcore/index.md"};function o(n,a,c,d,i,p){return t(),r("div")}const f=e(s,[["render",o]]);export{m as __pageData,f as default};
