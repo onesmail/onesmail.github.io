@@ -5,9 +5,16 @@
 ```
 htts://onesmail.github.io/assset/files/Meslo.zip
 ```
-4. 打开`Windows Terminal`，打开`设置`，选中`PowerShell`，打开`外观`选项，字体选择`MesloLGM NF`保存
-![微信截图_20230430123753](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/assset/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230430123753.png)
-5. 在`Windows Terminal`中的`powershell`中输入
+4. 设置字体
+- 打开`Windows Terminal`
+- 打开`设置`
+- 选中`PowerShell`
+- 打开`外观`选项
+- 选择字体`MesloLGM NF`
+- 保存
+
+![微信截图_20230430123753](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230430123753.png)
+1. 在`Windows Terminal`中的`powershell`中输入
 ```sh
 notepad $profile
 ```
@@ -25,20 +32,20 @@ $PROFILE
 ```sh
 C:\Users\<用户>\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 ```
-![微信截图_20230430123902](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/assset/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230430123902.png)
+![微信截图_20230430123902](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230430123902.png)
 :::
 
-6. 然后回到`Windows terminal`新建一个`powershell`，可以看到已生效的主题
-![微信截图_20230430125258](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/assset/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230430125258.png)
+1. 然后回到`Windows terminal`新建一个`powershell`，可以看到已生效的主题
+![微信截图_20230430125258](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230430125258.png)
 
 ## 修改主题
 - 使用以下命令，下载并预览所有主题
 ```sh
 Get-PoshThemes
 ```
-![微信截图_20230430125641](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/assset/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230430125641.png)
+![微信截图_20230430125641](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230430125641.png)
 
-- 打开主题配置文件，输入
+- 打开主题配置文件
 ```sh
 notepad $profile
 ```
