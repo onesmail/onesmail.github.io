@@ -4,9 +4,6 @@ import sidebar from './menu/sidebar';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    base: '/src/',
-    srcDir: '/src/',
-    lastUpdated: true,
     title: '首页',
     description: '我的学习文档',
     themeConfig: {
@@ -30,4 +27,5 @@ export default defineConfig({
         },
         lastUpdatedText: '最后更新',
     },
+    lastUpdated: true,
 });
