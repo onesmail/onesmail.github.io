@@ -5,7 +5,7 @@ export default [
         collapsed: false,
         items: [
             {
-                text: 'FastGithub',
+                text: 'fast github',
                 link: '/guides/tools/fastgithub',
             },
             { text: 'oh-my-posh', link: '/guides/tools/ohmyposh' },
@@ -19,6 +19,14 @@ export default [
             {
                 text: 'nvm',
                 link: '/guides/tools/nvm',
+            },
+            {
+                text: 'git',
+                link: '/guides/tools/git',
+            },
+            {
+                text: '内网穿透',
+                link: '/guides/tools/tunnel',
             },
         ],
     },
