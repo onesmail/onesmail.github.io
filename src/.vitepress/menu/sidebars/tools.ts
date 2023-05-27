@@ -9,6 +9,10 @@ export default [
                 link: '/guides/tools/fastgithub',
             },
             { text: 'oh-my-posh', link: '/guides/tools/ohmyposh' },
+            {
+                text: '网盘',
+                link: '/guides/tools/dreve',
+            },
         ],
     },
     {

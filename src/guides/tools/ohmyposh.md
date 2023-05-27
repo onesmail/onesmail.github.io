@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # 美化Windows命令行
 ## 1. 安装PowerShell
 点击<a href="ms-windows-store://pdp/?ProductId=9MZ1SNWT0N5D">这里</a>，打开 `Windows应用商店` 安装 `PowerShell`
