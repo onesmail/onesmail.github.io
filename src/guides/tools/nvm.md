@@ -1,5 +1,6 @@
 # 更换NVM源
-> github地址 [https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
+Github [https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
+
 - 在`nvm`安装目录下，找到配置文件`settings.txt`
 
 ```sh
