@@ -1,9 +1,9 @@
 export default [
     {
-        text: '插件',
+        text: 'Vue',
         items: [
             {
-                text: 'Vue',
+                text: '插件',
                 collapsed: true,
                 items: [
                     {
@@ -11,18 +11,18 @@ export default [
                         link: '/guides/web/framework/vue3topdf',
                     },
                     {
-                        text: 'Runtime API Examples',
-                        link: '/guides/web/framework/vue3gantt',
+                        text: '弹幕',
+                        link: '/guides/web/vue/framework/barrage',
                     },
                 ],
             },
         ],
     },
     {
-        text: '插件',
+        text: 'React',
         items: [
             {
-                text: 'Vue',
+                text: '插件',
                 collapsed: false,
                 items: [
                     {

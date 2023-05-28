@@ -5,7 +5,7 @@ import sidebar from './menu/sidebar';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     // base: '/src/',
-    title: '首页',
+    title: '我的学习文档',
     description: '我的学习文档',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config

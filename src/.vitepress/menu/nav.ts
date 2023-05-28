@@ -1,5 +1,9 @@
 const nav = [
-    { text: 'web', link: '/guides/web/index', activeMatch: '/guides/web/' },
+    {
+        text: 'web',
+        link: '/guides/web/vue/framework/barrage',
+        activeMatch: '/guides/web/',
+    },
     {
         text: '后端',
         link: '/guides/server/index',
