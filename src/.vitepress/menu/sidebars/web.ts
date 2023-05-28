@@ -28,6 +28,10 @@ export default [
                         text: '弹幕',
                         link: '/guides/web/vue/framework/barrage',
                     },
+                    {
+                        text: '播放器',
+                        link: '/guides/web/vue/framework/video',
+                    },
                 ],
             },
         ],
