@@ -1,5 +1,5 @@
 ---
-outline:deep
+outline: deep
 ---
 
 # 弹幕
@@ -10,12 +10,12 @@ outline:deep
 
 Github：https://github.com/hellodigua/vue-danmaku
 
-- 安装
+安装
 ```sh
 $ npm install vue3-danmaku --save
 ```
-- 使用
 
+使用
 ```vue
 <template>
   <vue-danmaku v-model:danmus="danmus" style="height:100px; width:300px;"></vue-danmaku>
@@ -44,17 +44,19 @@ Gitee：[https://gitee.com/null_639_5368/vue-barrage#vue-barrage](https://gitee.
 
 Github：https://github.com/superhos/vue-baberrage
 
-- 安装
+安装
 ```sh
 npm install vue-baberrage
 ```
-- 安装到项目
+
+注册组件
 ```js
 import Vue from 'vue'
 import { vueBaberrage } from 'vue-baberrage'
 Vue.use(vueBaberrage)
 ```
-- 使用
+
+使用
 ```vue
 <template>
 <div id="app">
