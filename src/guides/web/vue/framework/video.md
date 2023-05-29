@@ -1,7 +1,7 @@
 ---
 outline: deep
 ---
-# 视频播放器
+# 视频播放器:video_camera:
 
 ## vue-core-video-player
 
@@ -32,6 +32,7 @@ Vue.use(VueCoreVideoPlayer)
   </div>
 <template>
 ```
+Demo:tada:
 <iframe src="https://codesandbox.io/embed/laughing-alex-29wfcp?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="laughing-alex-29wfcp"
