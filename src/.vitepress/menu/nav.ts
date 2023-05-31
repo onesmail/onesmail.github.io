@@ -11,8 +11,8 @@ const nav = [
     },
     {
         text: '代码片段',
-        link: '/guides/snippets/index',
-        activeMatch: '/guides/snippets/',
+        link: '/guides/snippets/client/javascript',
+        activeMatch: '/guides/snippets/client/javascript',
     },
     {
         text: 'Linux',
@@ -21,7 +21,7 @@ const nav = [
     },
     {
         text: '工具',
-        link: '/guides/tools/fastgithub',
+        link: '/guides/tools/windows/fastgithub',
         activeMatch: '/guides/tools/',
     },
     {

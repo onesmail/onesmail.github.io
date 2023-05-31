@@ -45,7 +45,7 @@ Vue.use(VueCoreVideoPlayer)
 
 ## 弹幕视频播放器
 
-### DPlayer
+### DPlayer<Badge type="tip" text="推荐" />:tada:
 
 > 弹幕视频播放器，支持MSE、直播
 
@@ -99,7 +99,7 @@ export default {
 }
 ```
 
-### vue-wplayer
+### vue-wplayer<Badge type="tip" text="推荐" />:tada:
 
 > vue-wplayer 弹幕视频播放器
 
@@ -230,7 +230,7 @@ const $container = document.querySelector('网页元素')
 new Player($container, {})
 ```
 
-### nplayer
+### nplayer<Badge type="tip" text="推荐" />:tada:
 
 > 支持移动端、支持 SSR、支持直播，可以接入任何流媒体。高性能的弹幕系统。高度可定制，所有图标、主题色等都可以替换，并且提供了内置组件方便二次开发。无第三方运行时依赖。
 
