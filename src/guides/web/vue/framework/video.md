@@ -1,9 +1,10 @@
 ---
 outline: deep
 ---
-# 视频播放器:video_camera:
 
-## vue-core-video-player
+## 视频播放器
+
+### vue-core-video-player
 
 > 一款基于 vue.js 的轻量级的视频播放器插件插件
 
@@ -40,9 +41,11 @@ Vue.use(VueCoreVideoPlayer)
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-# 弹幕视频播放器
 
-## DPlayer
+
+## 弹幕视频播放器
+
+### DPlayer
 
 > 弹幕视频播放器，支持MSE、直播
 
@@ -61,11 +64,12 @@ import DPlayer from 'dplayer';
 const dp = new DPlayer(options);
 ```
 
-## vue-barrage-videoplayer
+### vue-barrage-videoplayer
 
 > vue-弹幕视频播放器，一个基于Vue的弹幕视频播放器组件
 
 Github：[https://github.com/yleencc/vue-barrage-videoplayer](https://github.com/yleencc/vue-barrage-videoplayer)
+
 Demo： [https://github.com/yleencc/vue-barrage-videoplayer/blob/master/src/views/preview-simple.vue](https://github.com/yleencc/vue-barrage-videoplayer/blob/master/src/views/preview-simple.vue)
 
 引入方式
@@ -94,7 +98,7 @@ export default {
 }
 ```
 
-## vue-wplayer
+### vue-wplayer
 
 > vue-wplayer 弹幕视频播放器
 
@@ -148,7 +152,7 @@ const options = {
 ```
 
 ::: details vue-wplayer早期版本
-## vue-wplayer
+**vue-wplayer**
 
 > vue3弹幕播放器
 
@@ -203,3 +207,80 @@ export default defineComponent({
 </style>
 ```
 :::
+
+### DanPlayer
+
+> DanPlayer 弹幕播放器
+
+Github：[https://github.com/gzlock/danplayer](https://github.com/gzlock/danplayer)
+
+安装
+
+```sh
+npm install danplayer
+```
+
+使用
+
+```js
+import { Player } from 'danplayer'
+...
+const $container = document.querySelector('网页元素')
+new Player($container, {})
+```
+
+### nplayer
+
+> 支持移动端、支持 SSR、支持直播，可以接入任何流媒体。高性能的弹幕系统。高度可定制，所有图标、主题色等都可以替换，并且提供了内置组件方便二次开发。无第三方运行时依赖。
+
+Github：[https://github.com/oyuyue/nplayer](https://github.com/oyuyue/nplayer)
+Docs：[https://nplayer.js.org/](https://nplayer.js.org/)
+
+安装
+```sh
+npm i -S nplayer
+```
+
+使用
+```js
+import Player from "nplayer";
+
+/**
+ * Danmaku DEMO:
+ *    https://codesandbox.io/s/nplayer-demo-ujtms?file=/src/index.js
+ * React DEMO:
+ *    https://codesandbox.io/s/nplayer-react-demo-p558g?file=/src/App.js
+ * Vue2 DEMO:
+ *    https://codesandbox.io/s/nplayer-vue2-demo-9lps9?file=/src/main.js
+ * Vue3 DEMO:
+ *    https://codesandbox.io/s/nplayer-vue3-demo-mt8s4?file=/src/main.js
+ */
+const player = new Player({
+  src: "https://v-cdn.zjol.com.cn/280443.mp4"
+});
+
+player.mount(document.body);
+```
+
+
+### ArtPlayer
+
+> h5视频播放器
+
+安装
+```sh
+$ npm install artplayer
+```
+
+导入
+```js
+import Artplayer from 'artplayer';
+```
+
+使用
+```js
+var art = new Artplayer({
+    container: '.artplayer-app',
+    url: 'path/to/video.mp4',
+});
+```

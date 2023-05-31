@@ -94,3 +94,48 @@ export default {
   ...
 </script>
 ```
+
+## Danmaku
+
+> Danmaku 是一个高性能的弹幕引擎库，可以绑定 HTML5 视频与音频元素，在指定的容器上显示弹幕；还支持无时间轴的实时模式，可以用作直播。
+
+Github：[https://github.com/weizhenye/Danmaku](https://github.com/weizhenye/Danmaku)
+
+安装
+```sh
+npm install danmaku
+```
+
+导入
+```js
+// Full version
+import Danmaku from 'danmaku';
+// DOM engine only
+import Danmaku from 'danmaku/dist/esm/danmaku.dom.js';
+// Canvas engine only
+import Danmaku from 'danmaku/dist/esm/danmaku.canvas.js';
+```
+
+- 视频模式
+```vue
+<div id="my-video-container" style="width:640px;height:360px;position:relative;">
+  <video id="my-video" src="./example.mp4" style="position:absolute;"></video>
+</div>
+
+<div id="my-audio-container" style="width:640px;height:360px;position:relative;"></div>
+<audio id="my-audio" src="./example.mp3"></audio>
+
+<script src="path/to/danmaku.min.js"></script>
+<script>
+  var danmaku1 = new Danmaku({
+    container: document.getElementById('my-video-container'),
+    media: document.getElementById('my-video'),
+    comments: []
+  });
+  var danmaku2 = new Danmaku({
+    container: document.getElementById('my-audio-container'),
+    media: document.getElementById('my-audio'),
+    comments: []
+  });
+</script>
+```
