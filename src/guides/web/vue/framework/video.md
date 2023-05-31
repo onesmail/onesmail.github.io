@@ -8,9 +8,9 @@ outline: deep
 
 > 一款基于 vue.js 的轻量级的视频播放器插件插件
 
-Github：https://github.com/core-player/vue-core-video-player
+- Github：https://github.com/core-player/vue-core-video-player
 
-Docs：https://core-player.github.io/vue-core-video-player/zh/
+- Docs：https://core-player.github.io/vue-core-video-player/zh/
 
 安装
 ```sh
@@ -49,8 +49,9 @@ Vue.use(VueCoreVideoPlayer)
 
 > 弹幕视频播放器，支持MSE、直播
 
-Github：https://github.com/DIYgod/DPlayer
-Docs： https://dplayer.diygod.dev/zh/
+- Github：https://github.com/DIYgod/DPlayer
+
+- Docs： https://dplayer.diygod.dev/zh/
 
 安装
 ```sh
@@ -68,9 +69,9 @@ const dp = new DPlayer(options);
 
 > vue-弹幕视频播放器，一个基于Vue的弹幕视频播放器组件
 
-Github：[https://github.com/yleencc/vue-barrage-videoplayer](https://github.com/yleencc/vue-barrage-videoplayer)
+- Github：[https://github.com/yleencc/vue-barrage-videoplayer](https://github.com/yleencc/vue-barrage-videoplayer)
 
-Demo： [https://github.com/yleencc/vue-barrage-videoplayer/blob/master/src/views/preview-simple.vue](https://github.com/yleencc/vue-barrage-videoplayer/blob/master/src/views/preview-simple.vue)
+- Demo： [https://github.com/yleencc/vue-barrage-videoplayer/blob/master/src/views/preview-simple.vue](https://github.com/yleencc/vue-barrage-videoplayer/blob/master/src/views/preview-simple.vue)
 
 引入方式
 - 将src/components下的四个文件复制到你的项目里，确保这四个文件保持在同一目录
@@ -102,9 +103,9 @@ export default {
 
 > vue-wplayer 弹幕视频播放器
 
-GitHub：[https://github.com/wangzmgit/vue-wplayer](https://github.com/wangzmgit/vue-wplayer)
+- GitHub：[https://github.com/wangzmgit/vue-wplayer](https://github.com/wangzmgit/vue-wplayer)
 
-Docs：[https://wplayer.kuukaa.fun/guide/quick_start.html](https://wplayer.kuukaa.fun/guide/quick_start.html)
+- Docs：[https://wplayer.kuukaa.fun/guide/quick_start.html](https://wplayer.kuukaa.fun/guide/quick_start.html)
 
 安装
 ```sh
@@ -156,7 +157,7 @@ const options = {
 
 > vue3弹幕播放器
 
-Gitee：[https://gitee.com/wzmgit/vue-wplayer](https://gitee.com/wzmgit/vue-wplayer)
+- Gitee：[https://gitee.com/wzmgit/vue-wplayer](https://gitee.com/wzmgit/vue-wplayer)
 
 安装
 ```sh
@@ -212,7 +213,7 @@ export default defineComponent({
 
 > DanPlayer 弹幕播放器
 
-Github：[https://github.com/gzlock/danplayer](https://github.com/gzlock/danplayer)
+- Github：[https://github.com/gzlock/danplayer](https://github.com/gzlock/danplayer)
 
 安装
 
@@ -233,8 +234,9 @@ new Player($container, {})
 
 > 支持移动端、支持 SSR、支持直播，可以接入任何流媒体。高性能的弹幕系统。高度可定制，所有图标、主题色等都可以替换，并且提供了内置组件方便二次开发。无第三方运行时依赖。
 
-Github：[https://github.com/oyuyue/nplayer](https://github.com/oyuyue/nplayer)
-Docs：[https://nplayer.js.org/](https://nplayer.js.org/)
+- Github：[https://github.com/oyuyue/nplayer](https://github.com/oyuyue/nplayer)
+
+- Docs：[https://nplayer.js.org/](https://nplayer.js.org/)
 
 安装
 ```sh
@@ -265,7 +267,11 @@ player.mount(document.body);
 
 ### ArtPlayer
 
-> h5视频播放器
+> h5弹幕视频播放器
+
+- Github：https://github.com/zhw2590582/ArtPlayer
+
+- Docs：https://www.artplayer.org/document/plugin/danmuku.html
 
 安装
 ```sh
