@@ -29,4 +29,10 @@ export default defineConfig({
         lastUpdatedText: '最后更新',
     },
     lastUpdated: true,
+    vite: {
+        server: {
+            host: true,
+            port: 3000,
+        },
+    },
 });
