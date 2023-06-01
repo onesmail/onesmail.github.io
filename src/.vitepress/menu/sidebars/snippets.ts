@@ -1,17 +1,35 @@
 export default [
     {
-        text: 'Examples',
+        text: '客户端',
+        links: '/guides/snippets/client/',
+        collapsed: false,
         items: [
             {
-                text: '323423',
-                collapsed: false,
-                items: [
-                    {
-                        text: 'Markdown Examples',
-                        link: '/markdown-examples',
-                    },
-                    { text: 'Runtime API Examples', link: '/api-examples' },
-                ],
+                text: 'css',
+                link: '/guides/snippets/client/css',
+            },
+            {
+                text: 'javascript',
+                link: '/guides/snippets/client/javascript',
+            },
+            {
+                text: '正则表达式',
+                link: '/guides/snippets/client/index',
+            },
+        ],
+    },
+    {
+        text: '服务端',
+        links: '/guides/snippets/client/',
+        collapsed: false,
+        items: [
+            {
+                text: 'node',
+                link: '/guides/snippets/client/node',
+            },
+            {
+                text: 'c#',
+                link: '/guides/snippets/client/csharp',
             },
         ],
     },

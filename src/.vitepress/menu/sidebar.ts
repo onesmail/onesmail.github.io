@@ -1,10 +1,10 @@
-import web from './sidebars/web';
+import blogs from './sidebars/blogs';
+import docs from './sidebars/docs';
+import linux from './sidebars/linux';
 import server from './sidebars/server';
 import snippets from './sidebars/snippets';
-import linux from './sidebars/linux';
 import tools from './sidebars/tools';
-import docs from './sidebars/docs';
-import blogs from './sidebars/blogs';
+import web from './sidebars/web';
 
 const sidebar = {
     // Web

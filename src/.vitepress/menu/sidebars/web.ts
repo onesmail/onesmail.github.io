@@ -10,10 +10,6 @@ export default [
                         text: 'vite',
                         link: '/guides/web/vue/note/vite',
                     },
-                    {
-                        text: '弹幕',
-                        link: '/guides/web/vue/framework/barrage',
-                    },
                 ],
             },
             {
