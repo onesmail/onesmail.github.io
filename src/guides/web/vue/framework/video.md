@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-## 视频播放器
+## 视频播放器 :shaved_ice:
 
 ### vue-core-video-player
 

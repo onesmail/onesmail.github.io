@@ -32,6 +32,10 @@ export default [
                 text: '内网穿透',
                 link: '/guides/tools/dev/tunnel',
             },
+            {
+                text: 'Docker',
+                link: '/guides/tools/dev/docker',
+            },
         ],
     },
 ];

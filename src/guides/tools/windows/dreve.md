@@ -129,24 +129,31 @@ docker run \
 Docker Compose 安装
 
 1. 创建`docker-compose.yml`文件
-2. 写入下面内容
-```yml
-version: '3.3'
-services:
-    alist:
-        restart: always
-        volumes:
-            - '/etc/alist:/opt/alist/data'
-        ports:
-            - '5244:5244'
-        environment:
-            - PUID=0
-            - PGID=0
-            - UMASK=022
-        container_name: alist
-        image: 'xhofe/alist:latest'
-```
-3. 执行
-```sh
-docker-compose up -d
-```
+   ```sh
+   touch docker-compose.yml
+   ```
+2. 编辑`docker-compose.yml`文件
+  ```sh
+  vim
+  ```
+1. 写入下面内容
+    ```yml
+    version: '3.3'
+    services:
+        alist:
+            restart: always
+            volumes:
+                - '/etc/alist:/opt/alist/data'
+            ports:
+                - '5244:5244'
+            environment:
+                - PUID=0
+                - PGID=0
+                - UMASK=022
+            container_name: alist
+            image: 'xhofe/alist:latest'
+    ```
+2. 执行
+    ```sh
+    docker-compose up -d
+    ```
