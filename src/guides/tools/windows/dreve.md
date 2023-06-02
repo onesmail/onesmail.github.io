@@ -126,7 +126,6 @@ docker run \
 - Github：https://github.com/alist-org/alist
 - Docs：https://alist.nn.ci/zh/guide/
 
-
 Docker Compose 安装
 
 1. 创建`docker-compose.yml`文件
