@@ -25,12 +25,12 @@ const nav = [
         activeMatch: '/guides/tools/',
     },
     {
-        text: '在线文档',
-        link: '/guides/docs/index',
-        activeMatch: '/guides/docs/',
+        text: '开源项目',
+        link: '/guides/projects/vue',
+        activeMatch: '/guides/projects/',
     },
     {
-        text: '博客',
+        text: '学习网址',
         link: '/guides/blogs/index',
         activeMatch: '/guides/blogs/',
     },

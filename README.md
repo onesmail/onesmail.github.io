@@ -1,1 +1,1 @@
-# docs.github.i
+# docs.github.io

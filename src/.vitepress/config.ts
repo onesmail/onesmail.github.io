@@ -1,6 +1,8 @@
+import mdItCustomAttrs from 'markdown-it-custom-attrs';
 import { defineConfig } from 'vitepress';
 import nav from './menu/nav';
 import sidebar from './menu/sidebar';
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     // base: '/src/',
@@ -38,4 +40,27 @@ export default defineConfig({
             port: 3000,
         },
     },
+    markdown: {
+        config: md => {
+            // use more markdown-it plugins!
+            md.use(mdItCustomAttrs, 'image', {
+                'data-fancybox': 'gallery',
+            });
+        },
+    },
+    head: [
+        [
+            'link',
+            {
+                rel: 'stylesheet',
+                href: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css',
+            },
+        ],
+        [
+            'script',
+            {
+                src: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js',
+            },
+        ],
+    ],
 });

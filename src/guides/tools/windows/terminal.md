@@ -13,17 +13,17 @@ outline: deep
 
 ### 1. 安装PowerShell
 
-点击[这里](ms-windows-store://pdp/?ProductId=9MZ1SNWT0N5D)，打开 `Windows应用商店` 安装 `PowerShell`
+打开<a href="ms-windows-store://pdp/?ProductId=9MZ1SNWT0N5D">`Windows应用商店`</a>安装 `PowerShell`
 
 ### 2. 安装Oh-My-Posh
 
-点击[这里](ms-windows-store://pdp/?ProductId=XP8K0HKJFRXGCK)，打开 `Windows应用商店` 安装 `Oh-My-Posh`
+打开<a href="ms-windows-store://pdp/?ProductId=XP8K0HKJFRXGCK">`Windows应用商店` </a>安装 `Oh-My-Posh`
 
 ### 3.安装`MesloLGM NF`字体
 
  [下载](htts://onesmail.github.io/assset/files/Meslo.zip)安装`MesloLGM NF`字体，下载完成后解压，全选右键点击安装即可自动安装
 
-- Github地址：[https://github.com/ryanoasis/nerd-fonts/releases](https://github.com/ryanoasis/nerd-fonts/releases)
+Github地址：[https://github.com/ryanoasis/nerd-fonts/releases](https://github.com/ryanoasis/nerd-fonts/releases)
 
 ### 4. 设置字体
 
