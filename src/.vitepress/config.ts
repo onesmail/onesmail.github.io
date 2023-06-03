@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress';
 import nav from './menu/nav';
 import sidebar from './menu/sidebar';
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     // base: '/src/',
@@ -27,6 +26,10 @@ export default defineConfig({
             next: '下一页',
         },
         lastUpdatedText: '最后更新',
+        search: {
+            provider: 'local',
+        },
+        // algolia,
     },
     lastUpdated: true,
     vite: {

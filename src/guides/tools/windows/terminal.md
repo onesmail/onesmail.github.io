@@ -17,7 +17,7 @@ outline: deep
 
 ### 2. 安装Oh-My-Posh
 
-点击[这里](<a href=")ms-windows-store://pdp/?ProductId=XP8K0HKJFRXGCK")，打开 `Windows应用商店` 安装 `Oh-My-Posh`
+点击[这里](ms-windows-store://pdp/?ProductId=XP8K0HKJFRXGCK)，打开 `Windows应用商店` 安装 `Oh-My-Posh`
 
 ### 3.安装`MesloLGM NF`字体
 
