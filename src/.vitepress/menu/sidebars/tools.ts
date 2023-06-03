@@ -8,7 +8,11 @@ export default [
                 text: 'fast github',
                 link: '/guides/tools/windows/fastgithub',
             },
-            { text: 'oh-my-posh', link: '/guides/tools/windows/ohmyposh' },
+            { text: 'terminal', link: '/guides/tools/windows/terminal' },
+            {
+                text: '内网穿透',
+                link: '/guides/tools/windows/tunnel',
+            },
             {
                 text: '网盘',
                 link: '/guides/tools/windows/dreve',
@@ -27,10 +31,6 @@ export default [
             {
                 text: 'git',
                 link: '/guides/tools/dev/git',
-            },
-            {
-                text: '内网穿透',
-                link: '/guides/tools/dev/tunnel',
             },
             {
                 text: 'Docker',

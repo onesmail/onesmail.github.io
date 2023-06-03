@@ -7,6 +7,7 @@
 Github：  https://github.com/fatedier/frp
 
 - nginx配置
+
 ```bash
 #frp http
 server {
@@ -52,6 +53,7 @@ server {
 ```
 
 - frp客户端配置
+
 ```ini
 [common]
 tcp_mux = true
@@ -60,7 +62,7 @@ server_addr = 43.142.12.221
 server_port = 5000
 #log_file = ./frpc.log
 
-[open]
+[web]
 type = http
 local_ip = 192.168.1.156
 local_port = 9000

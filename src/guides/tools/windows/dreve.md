@@ -5,18 +5,22 @@ outline: deep
 # 私有网盘
 
 ## Cloudreve
+>
 > 支持多家云存储驱动的公有云文件系统.
 
 **github**: [https://github.com/cloudreve/Cloudreve](https://github.com/cloudreve/Cloudreve)
 
 ### Docker 部署
+
 - 创建目录结构
+
 1. 动创建 `conf.ini` 空文件或者符合 `Cloudreve` 配置文件规范的 `conf.ini`, 并将 `<path_to_your_config>` 替换为该路径
 2. 手动创建 `cloudreve.db` 空文件, 并将 `<path_to_your_db>` 替换为该路径
 3. 手动创建 `uploads` 文件夹, 并将 `<path_to_your_uploads>` 替换为该路径
 4. 手动创建 `avatar` 文件夹，并将 `<path_to_your_avatar>` 替换为该路径
 
 **或者，直接使用以下命令创建：**
+
 ```sh
 mkdir -vp cloudreve/{uploads,avatar} \
 && touch cloudreve/conf.ini \
@@ -24,6 +28,7 @@ mkdir -vp cloudreve/{uploads,avatar} \
 ```
 
 - 运行
+
 ```sh
 docker run -d \
 -p 5212:5212 \
@@ -35,7 +40,9 @@ cloudreve/cloudreve:latest
 ```
 
 ### Docker Compose 部署
+
 - 创建目录结构
+
 ```sh
 mkdir -vp cloudreve/{uploads,avatar} \
 && touch cloudreve/conf.ini \
@@ -44,7 +51,9 @@ mkdir -vp cloudreve/{uploads,avatar} \
 && mkdir -p data/aria2 \
 && chmod -R 777 data/aria2
 ```
+
 - 然后将以下文件保存为 `docker-compose.yml`，放置于当前目录，与 `cloudreve` 同一层级，同时，修改文件中的 `RPC_SECRET`
+
 ```yml
 version: "3.8"
 services:
@@ -80,7 +89,9 @@ volumes:
       device: $PWD/data
       o: bind
 ```
+
 - 运行镜像
+
 ```sh
 # 后台运行模式，可以从 docker/docker-compose 的日志中获取默认管理员账户用户名和密码
 docker-compose up -d
@@ -96,6 +107,7 @@ docker-compose up
 **github**：[https://github.com/filebrowser/filebrowser](https://github.com/filebrowser/filebrowser)
 
 Docker 部署
+
 - 创建目录结构
 ::: tip
  目录可以自定义
@@ -121,39 +133,53 @@ docker run \
 ## NextCloud
 
 ## alist
+
 > 一个支持多存储的文件列表程序，使用 Gin 和 Solidjs。
 
-- Github：https://github.com/alist-org/alist
-- Docs：https://alist.nn.ci/zh/guide/
+- Github：[https://github.com/alist-org/alist](https://github.com/alist-org/alist)
+- Docs：[https://alist.nn.ci/zh/guide/](https://alist.nn.ci/zh/guide/)
 
 Docker Compose 安装
 
-1. 创建`docker-compose.yml`文件
+### 1. 创建`docker-compose.yml`文件
+
    ```sh
    touch docker-compose.yml
    ```
-2. 编辑`docker-compose.yml`文件
-  ```sh
-  vim
-  ```
-1. 写入下面内容
-    ```yml
-    version: '3.3'
-    services:
-        alist:
-            restart: always
-            volumes:
-                - '/etc/alist:/opt/alist/data'
-            ports:
-                - '5244:5244'
-            environment:
-                - PUID=0
-                - PGID=0
-                - UMASK=022
-            container_name: alist
-            image: 'xhofe/alist:latest'
-    ```
-2. 执行
-    ```sh
-    docker-compose up -d
-    ```
+
+### 2. 编辑`docker-compose.yml`文件
+
+   ```sh
+   vim docker-compose.yml
+   ```
+
+### 3. 写入下面内容
+
+   ```yml
+   version: '3.3'
+   services:
+     alist:
+       restart: always
+         volumes:
+           - '/etc/alist:/opt/alist/data'
+         ports:
+           - '5244:5244'
+         environment:
+           - PUID=0
+           - PGID=0
+           - UMASK=022
+         container_name: alist
+         image: 'xhofe/alist:latest'
+   ```
+
+### 4. 执行
+
+   ```sh
+   docker-compose up -d
+   ```
+
+### 5. 查看管理员信息
+
+   ```sh
+   docker exec -it alist ./alist admin
+   ```

@@ -6,6 +6,7 @@ outline: deep
 ## 浏览器
 
 ### 打开全屏
+
 ```js
 function fullScreen() {
     const el = document.documentElement
@@ -20,7 +21,9 @@ function fullScreen() {
 }
 fullScreen()
 ```
+
 ### 关闭全屏
+
 ```js
 function exitScreen() {
     if (document.exitFullscreen) { 
@@ -43,6 +46,7 @@ exitScreen()
 ```
 
 ### 屏幕录制
+
 ```js
 const streamPromise = navigator.mediaDevices.getDisplayMedia()
 streamPromise.then(stream => {
@@ -81,6 +85,7 @@ streamPromise.then(stream => {
 ```
 
 ### 判断横竖屏
+
 ```js
 function hengshuping(){
     if(window.orientation==180||window.orientation==0){
@@ -94,6 +99,7 @@ window.addEventListener("onorientationchange" in window ? "orientationchange" : 
 ```
 
 ### 横竖屏样式变更
+
 ```css
 <style>
 @media all and (orientation : landscape) {
