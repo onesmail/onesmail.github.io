@@ -10,6 +10,10 @@ export default {
 
 <template>
     <button @click="count++">Count is: {{ count }}</button>
+    <div>
+        <p></p>
+        <p></p>
+    </div>
 </template>
 
 <style scoped>
