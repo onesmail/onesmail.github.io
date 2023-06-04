@@ -1,7 +1,7 @@
 export default [
     {
         text: 'Windows批处理',
-        // collapsed: false,
+        collapsed: true,
         link: '/api-examples',
         // items: [
         //     {

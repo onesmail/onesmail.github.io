@@ -37,7 +37,7 @@ export default [
         items: [
             {
                 text: '插件',
-                collapsed: false,
+                collapsed: true,
                 items: [
                     {
                         text: 'vue3 html转PDF',

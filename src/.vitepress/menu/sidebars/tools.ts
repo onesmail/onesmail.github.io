@@ -1,28 +1,28 @@
 export default [
     {
         text: '系统工具',
-        links: '/guides/tools/windows/',
-        collapsed: false,
+        links: '/guides/tools/os/',
+        collapsed: true,
         items: [
             {
                 text: 'fast github',
-                link: '/guides/tools/windows/fastgithub',
+                link: '/guides/tools/os/fastgithub',
             },
-            { text: 'terminal', link: '/guides/tools/windows/terminal' },
+            { text: 'terminal', link: '/guides/tools/os/terminal' },
             {
                 text: '内网穿透',
-                link: '/guides/tools/windows/tunnel',
+                link: '/guides/tools/os/tunnel',
             },
             {
                 text: '网盘',
-                link: '/guides/tools/windows/dreve',
+                link: '/guides/tools/os/dreve',
             },
         ],
     },
     {
         text: '开发工具',
         links: '/guides/tools/dev/',
-        collapsed: false,
+        collapsed: true,
         items: [
             {
                 text: 'nvm',

@@ -2,7 +2,7 @@ export default [
     {
         text: '客户端',
         links: '/guides/snippets/client/',
-        collapsed: false,
+        collapsed: true,
         items: [
             {
                 text: 'css',
@@ -21,7 +21,7 @@ export default [
     {
         text: '服务端',
         links: '/guides/snippets/client/',
-        collapsed: false,
+        collapsed: true,
         items: [
             {
                 text: 'node',

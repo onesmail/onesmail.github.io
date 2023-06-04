@@ -98,3 +98,33 @@ oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\powerline.omp.json | Invoke-
 ```sh
 .$PROFILE
 ```
+
+## x-cmd
+
+> 集成式终端命令行工具X 命令的起点
+
+- Github：[https://github.com/x-cmd/x-cmd](https://github.com/x-cmd/x-cmd)
+- Home：[https://cn.x-cmd.com/](https://cn.x-cmd.com/)
+- Docs: [https://cn.x-cmd.com/basic/theme](https://cn.x-cmd.com/basic/theme)
+
+### 安装
+
+::: code-group
+
+```sh [curl]
+eval "$(curl https://get.x-cmd.com)"
+```
+
+```sh [wget]
+eval "$(wget -O- https://get.x-cmd.com)"
+```
+
+:::
+
+### 使用
+
+- 更改命令行主题
+
+```sh
+x theme
+```

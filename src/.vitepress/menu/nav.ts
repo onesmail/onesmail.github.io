@@ -21,7 +21,7 @@ const nav = [
     },
     {
         text: '工具',
-        link: '/guides/tools/windows/fastgithub',
+        link: '/guides/tools/os/fastgithub',
         activeMatch: '/guides/tools/',
     },
     {

@@ -4,7 +4,7 @@ export default [
         items: [
             {
                 text: '323423',
-                collapsed: false,
+                collapsed: true,
                 items: [
                     {
                         text: 'Markdown Examples',
