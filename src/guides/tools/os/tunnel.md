@@ -4,7 +4,7 @@
 
 > frp 是一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网。
 
-Github：  https://github.com/fatedier/frp
+Github：[https://github.com/fatedier/frp](https://github.com/fatedier/frp)
 
 - nginx配置
 
@@ -17,10 +17,10 @@ server {
       location / {
           # 这里的端口需要跟frps的vhost_http_port的设置保持一致
           proxy_pass http://127.0.0.1:8080;
-          proxy_set_header	Host	$host;
-          proxy_set_header	Remote_Addr	$remote_addr;
-          proxy_set_header	X-Real-IP $remote_addr;
-          proxy_set_header	X-Forwarded-For	$remote_addr;
+          proxy_set_header Host $host;
+          proxy_set_header Remote_Addr $remote_addr;
+          proxy_set_header X-Real-IP $remote_addr;
+          proxy_set_header X-Forwarded-For $remote_addr;
       }
 }
 

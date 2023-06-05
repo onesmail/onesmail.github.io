@@ -9,6 +9,7 @@ export default [
                 link: '/guides/tools/os/fastgithub',
             },
             { text: 'terminal', link: '/guides/tools/os/terminal' },
+            { text: 'ssh连接工具', link: '/guides/tools/os/ssh' },
             {
                 text: '内网穿透',
                 link: '/guides/tools/os/tunnel',

@@ -8,14 +8,16 @@ outline: deep
 
 >基于 Vue3 的弹幕交互组件
 
-Github：https://github.com/hellodigua/vue-danmaku
+Github：[https://github.com/hellodigua/vue-danmaku](https://github.com/hellodigua/vue-danmaku)
 
 安装
+
 ```sh
-$ npm install vue3-danmaku --save
+npm install vue3-danmaku --save
 ```
 
 使用
+
 ```vue
 <template>
   <vue-danmaku v-model:danmus="danmus" style="height:100px; width:300px;"></vue-danmaku>
@@ -35,21 +37,25 @@ export default {
 ```
 
 ## vue-barrage
+
 >一款基于vue的弹幕组件
 
 Gitee：[https://gitee.com/null_639_5368/vue-barrage#vue-barrage](https://gitee.com/null_639_5368/vue-barrage#vue-barrage)
 
 ## vue-baberrage
+
 >基于Vue.js弹幕插件
 
-Github：https://github.com/superhos/vue-baberrage
+Github：[https://github.com/superhos/vue-baberrage](https://github.com/superhos/vue-baberrage)
 
 安装
+
 ```sh
 npm install vue-baberrage
 ```
 
 注册组件
+
 ```js
 import Vue from 'vue'
 import { vueBaberrage } from 'vue-baberrage'
@@ -57,6 +63,7 @@ Vue.use(vueBaberrage)
 ```
 
 使用
+
 ```vue
 <template>
 <div id="app">
@@ -102,11 +109,13 @@ export default {
 Github：[https://github.com/weizhenye/Danmaku](https://github.com/weizhenye/Danmaku)
 
 安装
+
 ```sh
 npm install danmaku
 ```
 
 导入
+
 ```js
 // Full version
 import Danmaku from 'danmaku';
@@ -117,6 +126,7 @@ import Danmaku from 'danmaku/dist/esm/danmaku.canvas.js';
 ```
 
 - 视频模式
+
 ```vue
 <div id="my-video-container" style="width:640px;height:360px;position:relative;">
   <video id="my-video" src="./example.mp4" style="position:absolute;"></video>

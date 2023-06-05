@@ -2,22 +2,24 @@
 outline: deep
 ---
 
-## 视频播放器 :shaved_ice:
+# 视频播放器
 
-### vue-core-video-player
+## vue-core-video-player
 
 > 一款基于 vue.js 的轻量级的视频播放器插件插件
 
-- Github：https://github.com/core-player/vue-core-video-player
+- Github：[https://github.com/core-player/vue-core-video-player](https://github.com/core-player/vue-core-video-player)
 
-- Docs：https://core-player.github.io/vue-core-video-player/zh/
+- Docs：[https://core-player.github.io/vue-core-video-player/zh/](https://core-player.github.io/vue-core-video-player/zh/)
 
 安装
+
 ```sh
 npm install --save vue-core-video-player
 ```
 
 注册组件
+
 ```js
 import VueCoreVideoPlayer from 'vue-core-video-player'
 
@@ -25,6 +27,7 @@ Vue.use(VueCoreVideoPlayer)
 ```
 
 使用
+
 ```vue
 <template>
   <div class="player-container">
@@ -41,24 +44,24 @@ Vue.use(VueCoreVideoPlayer)
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-
-
 ## 弹幕视频播放器
 
-### DPlayer<Badge type="tip" text="推荐" />:tada:
+### DPlayer <Badge type="tip" text="推荐" />:tada:
 
 > 弹幕视频播放器，支持MSE、直播
 
-- Github：https://github.com/DIYgod/DPlayer
+- Github：[https://github.com/DIYgod/DPlayer](https://github.com/DIYgod/DPlayer)
 
-- Docs： https://dplayer.diygod.dev/zh/
+- Docs： [https://dplayer.diygod.dev/zh/](https://dplayer.diygod.dev/zh/)
 
 安装
+
 ```sh
 npm install --save dplayer
 ```
 
 使用
+
 ```js
 import DPlayer from 'dplayer';
 
@@ -74,6 +77,7 @@ const dp = new DPlayer(options);
 - Demo： [https://github.com/yleencc/vue-barrage-videoplayer/blob/master/src/views/preview-simple.vue](https://github.com/yleencc/vue-barrage-videoplayer/blob/master/src/views/preview-simple.vue)
 
 引入方式
+
 - 将src/components下的四个文件复制到你的项目里，确保这四个文件保持在同一目录
 - 将src/assets文件夹复制到项目src/里面，确保/src/assets/images/loading.svg存在（该文件为缓冲时的加载图标）
 - 在页面中导入barrage-videoplayer.vue
@@ -108,11 +112,13 @@ export default {
 - Docs：[https://wplayer.kuukaa.fun/guide/quick_start.html](https://wplayer.kuukaa.fun/guide/quick_start.html)
 
 安装
+
 ```sh
 npm install vue-wplayer
 ```
 
 示例
+
 ```vue
 <template>
   <div class="container">
@@ -160,11 +166,13 @@ const options = {
 - Gitee：[https://gitee.com/wzmgit/vue-wplayer](https://gitee.com/wzmgit/vue-wplayer)
 
 安装
+
 ```sh
 npm install vue-wplayer
 ```
 
 示例
+
 ```vue
 <template>
   <div class="container">
@@ -207,6 +215,7 @@ export default defineComponent({
 }
 </style>
 ```
+
 :::
 
 ### DanPlayer
@@ -239,11 +248,13 @@ new Player($container, {})
 - Docs：[https://nplayer.js.org/](https://nplayer.js.org/)
 
 安装
+
 ```sh
 npm i -S nplayer
 ```
 
 使用
+
 ```js
 import Player from "nplayer";
 
@@ -264,26 +275,28 @@ const player = new Player({
 player.mount(document.body);
 ```
 
-
 ### ArtPlayer
 
 > h5弹幕视频播放器
 
-- Github：https://github.com/zhw2590582/ArtPlayer
+- Github：[https://github.com/zhw2590582/ArtPlayer](https://github.com/zhw2590582/ArtPlayer)
 
-- Docs：https://www.artplayer.org/document/plugin/danmuku.html
+- Docs：[https://www.artplayer.org/document/plugin/danmuku.html](https://www.artplayer.org/document/plugin/danmuku.html)
 
 安装
+
 ```sh
-$ npm install artplayer
+npm install artplayer
 ```
 
 导入
+
 ```js
 import Artplayer from 'artplayer';
 ```
 
 使用
+
 ```js
 var art = new Artplayer({
     container: '.artplayer-app',
