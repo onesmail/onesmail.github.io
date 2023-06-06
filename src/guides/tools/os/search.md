@@ -2,7 +2,9 @@
 outline: deep
 ---
 
-# 文件搜索
+# 本地搜索
+
+## Everything
 
 下载地址：[https://www.voidtools.com/zh-cn/](https://www.voidtools.com/zh-cn/)
 

@@ -15,6 +15,10 @@ export default [
                 link: '/guides/tools/os/tunnel',
             },
             {
+                text: '本地搜索',
+                link: '/guides/tools/os/search',
+            },
+            {
                 text: '网盘',
                 link: '/guides/tools/os/dreve',
             },
