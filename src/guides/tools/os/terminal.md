@@ -101,7 +101,7 @@ oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\powerline.omp.json | Invoke-
 
 ## x-cmd
 
-> 集成式终端命令行工具X 命令的起点
+> Linux 集成式终端命令行工具X 命令的起点
 
 - Github：[https://github.com/x-cmd/x-cmd](https://github.com/x-cmd/x-cmd)
 - Home：[https://cn.x-cmd.com/](https://cn.x-cmd.com/)
@@ -128,3 +128,14 @@ eval "$(wget -O- https://get.x-cmd.com)"
 ```sh
 x theme
 ```
+
+![微信截图_20230606205003](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230606205003.png)
+
+## Hyper
+
+> 基于网络技术的终端
+
+- Github: [https://github.com/vercel/hyper](https://github.com/vercel/hyper)
+- Docs: [https://hyper.is/](https://hyper.is/)
+
+![微信截图_20230606205344](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230606205344.png)

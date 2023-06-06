@@ -1,5 +1,13 @@
 export default [
     {
+        text: 'css',
+        items: [],
+    },
+    {
+        text: 'javascript',
+        items: [],
+    },
+    {
         text: 'Vue',
         items: [
             {
