@@ -15,6 +15,10 @@ export default [
                 link: '/guides/tools/os/tunnel',
             },
             {
+                text: '屏幕截图',
+                link: '/guides/tools/os/screencapture',
+            },
+            {
                 text: '本地搜索',
                 link: '/guides/tools/os/search',
             },
