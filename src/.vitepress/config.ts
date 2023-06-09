@@ -2,6 +2,7 @@ import mdItCustomAttrs from 'markdown-it-custom-attrs';
 import { defineConfig } from 'vitepress';
 import nav from './menu/nav';
 import sidebar from './menu/sidebar';
+import algolia from './algolia';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -28,10 +29,10 @@ export default defineConfig({
             next: '下一页',
         },
         lastUpdatedText: '最后更新',
-        search: {
-            provider: 'local',
-        },
-        // algolia,
+        // search: {
+        //     provider: 'local',
+        // },
+        algolia,
     },
     lastUpdated: true,
     vite: {

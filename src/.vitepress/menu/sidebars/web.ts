@@ -1,7 +1,13 @@
 export default [
     {
         text: 'css',
-        items: [],
+        // collapsed: true,
+        items: [
+            {
+                text: '新特性',
+                link: '/guides/web/css/features',
+            },
+        ],
     },
     {
         text: 'JavaScript',

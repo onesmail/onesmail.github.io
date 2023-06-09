@@ -1,7 +1,7 @@
 const nav = [
     {
         text: 'web',
-        link: '/guides/web/framework/barrage',
+        link: '/guides/web/css/features',
         activeMatch: '/guides/web/',
     },
     {
