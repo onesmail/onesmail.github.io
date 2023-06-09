@@ -57,3 +57,12 @@ outline: deep
 - Demo: [https://drawcall.github.io/Proton/](https://drawcall.github.io/Proton/)
 
 ![20230609193246](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/20230609193246.png)
+
+## party-js
+
+> 一个 JavaScript 库，可通过视觉效果提升用户的网站体验！
+
+- Github: [https://github.com/yiliansource/party-js](https://github.com/yiliansource/party-js)
+- Docs: [https://party.js.org/](https://party.js.org/)
+
+![20230609212733](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/20230609212733.png)
