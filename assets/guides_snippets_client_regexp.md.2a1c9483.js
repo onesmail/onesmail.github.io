@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s}from"./chunks/framework.5a3d92d1.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guides/snippets/client/regexp.md","lastUpdated":1685542826000}'),a={name:"guides/snippets/client/regexp.md"};function r(n,p,c,o,i,d){return s(),t("div")}const m=e(a,[["render",r]]);export{l as __pageData,m as default};
