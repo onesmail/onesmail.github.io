@@ -22,9 +22,17 @@ $ sudo yum remove docker \
 
 ### 安装依赖
 
-```sh
+::: code-group
+
+```sh [centos]
 sudo yum install -y yum-utils
 ```
+
+```sh [fedora]
+dnf -y install dnf-plugins-core
+```
+
+:::
 
 ### 添加源
 
