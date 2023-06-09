@@ -4,7 +4,7 @@ export default [
         items: [],
     },
     {
-        text: 'javascript',
+        text: 'JavaScript',
         items: [],
     },
     {
@@ -17,24 +17,6 @@ export default [
                     {
                         text: 'vite',
                         link: '/guides/web/vue/note/vite',
-                    },
-                ],
-            },
-            {
-                text: '组件',
-                collapsed: true,
-                items: [
-                    {
-                        text: 'html转pdf',
-                        link: '/guides/web/vue/framework/vue3topdf',
-                    },
-                    {
-                        text: '弹幕',
-                        link: '/guides/web/vue/framework/barrage',
-                    },
-                    {
-                        text: '播放器',
-                        link: '/guides/web/vue/framework/video',
                     },
                 ],
             },
@@ -52,6 +34,44 @@ export default [
                         link: '/guides/web/framework/vue3topdf',
                     },
                 ],
+            },
+        ],
+    },
+    {
+        text: '组件',
+        collapsed: true,
+        items: [
+            {
+                text: '动画',
+                link: '/guides/web/framework/animation',
+            },
+            {
+                text: 'pdf',
+                link: '/guides/web/framework/pdf',
+            },
+            {
+                text: '弹幕',
+                link: '/guides/web/framework/barrage',
+            },
+            {
+                text: '播放器',
+                link: '/guides/web/framework/video',
+            },
+            {
+                text: 'office',
+                link: '/guides/web/framework/office',
+            },
+            {
+                text: '画图',
+                link: '/guides/web/framework/draw',
+            },
+            {
+                text: '二维码',
+                link: '/guides/web/framework/qrcode',
+            },
+            {
+                text: '其他',
+                link: '/guides/web/framework/other',
             },
         ],
     },

@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "我的文档"
-  text: "记录日常学习"
+  name: "我的学习笔记"
+  text: "记录日常学习笔记"
   tagline: 俗话说得好：好记性不如烂笔头
   actions:
     - theme: brand

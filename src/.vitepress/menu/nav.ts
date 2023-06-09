@@ -1,7 +1,7 @@
 const nav = [
     {
         text: 'web',
-        link: '/guides/web/vue/framework/barrage',
+        link: '/guides/web/framework/barrage',
         activeMatch: '/guides/web/',
     },
     {
