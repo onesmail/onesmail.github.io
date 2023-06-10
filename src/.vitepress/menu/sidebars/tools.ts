@@ -5,8 +5,8 @@ export default [
         collapsed: true,
         items: [
             {
-                text: 'fast github',
-                link: '/guides/tools/os/fastgithub',
+                text: 'github',
+                link: '/guides/tools/os/github',
             },
             { text: 'terminal', link: '/guides/tools/os/terminal' },
             { text: 'ssh连接工具', link: '/guides/tools/os/ssh' },

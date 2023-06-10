@@ -183,3 +183,12 @@ services:
    ```sh
    docker exec -it alist ./alist admin
    ```
+
+## zfile
+
+>最方便快捷的在线目录展示程序，支持将本地文件、FTP、SFTP、S3、OneDrive 等存储在网站上展示并浏览.
+
+- Github: [https://github.com/zfile-dev/zfile](https://github.com/zfile-dev/zfile)
+- Docs: [https://docs.zfile.vip/install-os/](https://docs.zfile.vip/install-os/)
+
+![68747470733a2f2f63646e2e6a756e362e6e65742f755069632f323032322f30392f30342f7a66696c652d6865616465722e706e67](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/68747470733a2f2f63646e2e6a756e362e6e65742f755069632f323032322f30392f30342f7a66696c652d6865616465722e706e67.png)

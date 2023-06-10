@@ -29,7 +29,7 @@ sudo yum install -y yum-utils
 ```
 
 ```sh [fedora]
-dnf -y install dnf-plugins-core
+sudo dnf -y install dnf-plugins-core
 ```
 
 :::
@@ -129,3 +129,6 @@ docker-compose --version
 ```sh
 sudo rm /usr/local/bin/docker-compose
 ```
+
+## Docker 可视化
+

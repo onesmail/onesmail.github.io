@@ -1,13 +1,16 @@
 ---
 outline: deep
 ---
-# FastGithub
+
+# Github工具
+
+## FastGithub
 
 > github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题
 
 下载地址：[https://github.com/dotnetcore/FastGithub/releases](https://github.com/dotnetcore/FastGithub/releases)
 
-## windows-x64服务
+### windows-x64服务
 
 - 以windows服务安装并启动
 
@@ -21,7 +24,7 @@ fastgithub.exe start
 fastgithub.exe stop
 ```
 
-## linux-x64服务
+### linux-x64服务
 
 - 以systemd服务安装并启动
 
