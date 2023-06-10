@@ -186,9 +186,52 @@ services:
 
 ## zfile
 
->最方便快捷的在线目录展示程序，支持将本地文件、FTP、SFTP、S3、OneDrive 等存储在网站上展示并浏览.
+> 最方便快捷的在线目录展示程序，支持将本地文件、FTP、SFTP、S3、OneDrive 等存储在网站上展示并浏览.
 
 - Github: [https://github.com/zfile-dev/zfile](https://github.com/zfile-dev/zfile)
 - Docs: [https://docs.zfile.vip/install-os/](https://docs.zfile.vip/install-os/)
 
 ![68747470733a2f2f63646e2e6a756e362e6e65742f755069632f323032322f30392f30342f7a66696c652d6865616465722e706e67](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/68747470733a2f2f63646e2e6a756e362e6e65742f755069632f323032322f30392f30342f7a66696c652d6865616465722e706e67.png)
+以下是一个上传文件并验证文件格式和大小的示例代码：
+
+```csharp
+[HttpPost]
+public async Task<IActionResult> Upload(IFormFile file)
+{
+    if (file == null || file.Length == 0)
+        return Content("file not selected");
+
+    // 验证文件格式
+    if (!IsValidFileType(file.FileName))
+        return Content("invalid file type");
+
+    // 验证文件大小（在此演示里，限制文件大小为2MB）
+    if (file.Length > (2 * 1024 * 1024))
+        return Content("file size is too large");
+
+    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", file.FileName);
+
+    using (var stream = new FileStream(path, FileMode.Create))
+    {
+        await file.CopyToAsync(stream);
+    }
+
+    return RedirectToAction("Index");
+}
+
+private bool IsValidFileType(string fileName)
+{
+    // 以下只是一个演示，应该根据实际要求更改，建议在配置文件中定义支持的文件类型
+    string[] allowedExtensions = { ".jpg", ".jpeg", ".png", ".gif" };
+
+    var ext = Path.GetExtension(fileName).ToLowerInvariant();
+
+    return allowedExtensions.Contains(ext);
+}
+```
+
+在代码中，我添加了两个验证：文件格式和文件大小。在此示例中，文件格式验证只是检查文件扩展名是否在指定的一组扩展名内。建议根据实际业务需要更改此列表。
+
+文件大小验证是检查文件大小是否超过2 MB的简单示例。同样建议将此值更改为适合您的业务需求的值。
+
+总之，这些验证只是低级别的保护措施，并不能防止所有恶意文件上传攻击。因此，您还应该采取其他安全性和验证步骤。
