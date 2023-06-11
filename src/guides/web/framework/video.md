@@ -4,6 +4,18 @@ outline: deep
 
 # 视频播放器
 
+<!-- <script setup>
+  import VueCoreVideoPlayer from "@/components/vue/video/vue-core-video-player.vue";
+</script> -->
+<!-- <script>
+  import VueCoreVideoPlayer from "@/components/vue/video/vue-core-video-player.vue";
+  export default {
+    components: {
+      VueCoreVideoPlayer
+    }
+  }
+</script> -->
+
 ## vue-core-video-player
 
 > 一款基于 vue.js 的轻量级的视频播放器插件插件
@@ -36,13 +48,6 @@ Vue.use(VueCoreVideoPlayer)
   </div>
 <template>
 ```
-
-<iframe src="https://codesandbox.io/embed/laughing-alex-29wfcp?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="laughing-alex-29wfcp"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
 
 ## 弹幕视频播放器
 

@@ -1,5 +1,6 @@
 import mdItCustomAttrs from 'markdown-it-custom-attrs';
 import { defineConfig } from 'vitepress';
+import { resolve } from 'path';
 import nav from './menu/nav';
 import sidebar from './menu/sidebar';
 import algolia from './algolia';
@@ -39,6 +40,15 @@ export default defineConfig({
         server: {
             host: true,
             port: 3000,
+        },
+        resolve: {
+            // alias: {
+            //     '@': resolve(__dirname, '/src'),
+            // },
+            alias: [
+                //配置别名
+                { find: '@', replacement: resolve(__dirname, '../../src') },
+            ],
         },
     },
     markdown: {

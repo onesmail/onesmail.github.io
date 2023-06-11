@@ -18,13 +18,11 @@ export default [
         items: [
             {
                 text: '笔记',
-                collapsed: true,
-                items: [
-                    {
-                        text: 'vite',
-                        link: '/guides/web/vue/note/vite',
-                    },
-                ],
+                link: '/guides/web/vue/note/vite',
+            },
+            {
+                text: '示例',
+                link: '/guides/web/vue/example/index',
             },
         ],
     },
