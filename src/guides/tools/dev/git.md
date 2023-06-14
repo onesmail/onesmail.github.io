@@ -51,3 +51,7 @@ git config --system http.sslverify false
 ```sh
 git config http.sslverify false
 ```
+
+## git快捷键
+
+![git速查表](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/git%E9%80%9F%E6%9F%A5%E8%A1%A8.jpg)
