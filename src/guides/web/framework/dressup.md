@@ -6,7 +6,7 @@ outline: deep
 
 ## dress-up game
 
-- WebSite:[https://codepen.io/kristenmay/pen/ZppNeb](https://codepen.io/kristenmay/pen/ZppNeb)
+- Demo: [https://codepen.io/kristenmay/pen/ZppNeb](https://codepen.io/kristenmay/pen/ZppNeb)
 
 ![20230614113918](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/20230614113918.png)
 
@@ -21,6 +21,10 @@ outline: deep
 
 - Github: [https://github.com/meramos/React_Dressup_Game](https://github.com/meramos/React_Dressup_Game)
 - Demo: [https://meramos.github.io/React_Dressup_Game/](https://meramos.github.io/React_Dressup_Game/)
+
+## Doll Dress-Up Game
+
+- Demo: [https://codepen.io/Coding-Artist/pen/jpmLXz](https://codepen.io/Coding-Artist/pen/jpmLXz)
 
 ## 参考资料
 
