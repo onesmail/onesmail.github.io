@@ -5,13 +5,10 @@ import nav from './menu/nav';
 import sidebar from './menu/sidebar';
 import algolia from './algolia';
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
-    // base: '/src/',
     title: '我的学习笔记',
     description: '我的学习笔记',
     themeConfig: {
-        // https://vitepress.dev/reference/default-theme-config
         nav,
         sidebar,
         socialLinks: [
@@ -30,6 +27,7 @@ export default defineConfig({
             next: '下一页',
         },
         lastUpdatedText: '最后更新',
+        // 本地搜索
         // search: {
         //     provider: 'local',
         // },
@@ -42,9 +40,6 @@ export default defineConfig({
             port: 3000,
         },
         resolve: {
-            // alias: {
-            //     '@': resolve(__dirname, '/src'),
-            // },
             alias: [
                 //配置别名
                 { find: '@', replacement: resolve(__dirname, '../../src') },
@@ -53,7 +48,6 @@ export default defineConfig({
     },
     markdown: {
         config: md => {
-            // use more markdown-it plugins!
             md.use(mdItCustomAttrs, 'image', {
                 'data-fancybox': 'gallery',
             });

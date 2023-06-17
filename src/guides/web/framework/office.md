@@ -50,3 +50,12 @@ outline: deep
 - Docs: [https://dream-num.github.io/LuckysheetDocs/zh/](https://dream-num.github.io/LuckysheetDocs/zh/)
 
 ![640](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/640.gif)
+
+## vue-office
+
+> 支持word(.docx)、excel(.xlsx)、pdf等各类型office文件预览的vue组件集合，提供一站式office文件预览方案，支持vue2和3。
+
+- Github: [https://github.com/501351981/vue-office](https://github.com/501351981/vue-office)
+- Docs: [https://501351981.github.io/vue-office/examples/docs/](https://501351981.github.io/vue-office/examples/docs/)
+- Demo: [https://501351981.github.io/vue-office/examples/dist/](https://501351981.github.io/vue-office/examples/dist/)
+
