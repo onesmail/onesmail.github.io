@@ -55,3 +55,13 @@ git config http.sslverify false
 ## git快捷键
 
 ![git速查表](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/git%E9%80%9F%E6%9F%A5%E8%A1%A8.jpg)
+
+## Git解决Filename too long
+
+> git有可以创建4096长度的文件名，然而在windows最多是260，因为git用了旧版本的windows api，这个错误其实并不是来自于UNIX 或mac系统，而是只来自于windows系统，因为在windows操作系统中，允许比较长的文件名称这个设置项默认是关闭(false)的。
+
+解决方式
+
+```sh
+git config --global core.longpaths true
+```
