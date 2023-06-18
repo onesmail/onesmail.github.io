@@ -1,5 +1,4 @@
 import blogs from './sidebars/blogs';
-import docs from './sidebars/docs';
 import linux from './sidebars/linux';
 import server from './sidebars/server';
 import snippets from './sidebars/snippets';
@@ -19,8 +18,6 @@ const sidebar = {
     '/guides/tools/': tools,
     // 开源项目
     '/guides/projects/': projects,
-    // 在线文档
-    '/guides/docs/': docs,
     // 博客
     '/guides/blogs/': blogs,
 };
