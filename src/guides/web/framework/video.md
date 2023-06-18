@@ -4,18 +4,6 @@ outline: deep
 
 # 视频播放器
 
-<!-- <script setup>
-  import VueCoreVideoPlayer from "@/components/vue/video/vue-core-video-player.vue";
-</script> -->
-<!-- <script>
-  import VueCoreVideoPlayer from "@/components/vue/video/vue-core-video-player.vue";
-  export default {
-    components: {
-      VueCoreVideoPlayer
-    }
-  }
-</script> -->
-
 ## vue-core-video-player
 
 > 一款基于 vue.js 的轻量级的视频播放器插件插件
