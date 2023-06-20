@@ -139,3 +139,12 @@ x theme
 - Docs: [https://hyper.is/](https://hyper.is/)
 
 ![微信截图_20230606205344](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230606205344.png)
+
+## tabby
+
+> 是一个高度可配置的终端模拟器、SSH 和串行客户端，适用于 Windows、macOS 和 Linux。
+
+- Github: [https://github.com/Eugeny/tabby](https://github.com/Eugeny/tabby)
+- Home: [https://tabby.sh/](https://tabby.sh/)
+
+![20230618105431](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/20230618105431.png)
