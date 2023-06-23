@@ -26,6 +26,10 @@ export default [
                 text: '网盘',
                 link: '/guides/tools/os/dreve',
             },
+            {
+                text: '其他',
+                link: '/guides/tools/os/other',
+            },
         ],
     },
     {

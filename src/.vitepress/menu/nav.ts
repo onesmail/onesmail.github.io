@@ -16,7 +16,7 @@ const nav = [
     },
     {
         text: 'Linux',
-        link: '/guides/linux/index',
+        link: '/guides/linux/note',
         activeMatch: '/guides/linux/',
     },
     {

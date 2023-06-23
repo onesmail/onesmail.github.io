@@ -58,7 +58,7 @@ $ sudo sed -i 's/download.docker.com/mirrors.aliyun.com\/docker-ce/g' /etc/yum.r
  dnf update -y
 ```
 
-### 并安装 `docker-ce`
+### 安装 `docker-ce`
 
 ```sh
  sudo yum install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
@@ -78,7 +78,7 @@ $ sudo sed -i 's/download.docker.com/mirrors.aliyun.com\/docker-ce/g' /etc/yum.r
  sudo systemctl start docker
 ```
 
-### 镜像加速
+### 脚本安装
 
 > 如果在使用过程中发现拉取 Docker 镜像十分缓慢，可以配置 Docker 国内镜像加速。
 
@@ -96,6 +96,49 @@ curl -fsSL get.docker.com -o get-docker.sh
     sudo sh get-docker.sh --mirror Aliyun
 ```
 
+:::
+
+### 镜像加速
+
+- 查看是否在 docker.service 文件中配置过镜像地址
+
+```sh
+systemctl cat docker | grep '\-\-registry\-mirror'
+```
+
+如果该命令有输出，执行 `$ systemctl cat docker` 查看 `ExecStart=` 出现的位置，修改对应的文件内容去掉 `--registry-mirror` 参数及其值，并按接下来的步骤进行配置。
+
+- **如果以上命令没有任何输出**，在 `/etc/docker/daemon.json` 中写入如下内容
+
+```json
+{
+  "registry-mirrors": [
+    "https://hub-mirror.c.163.com",
+    "https://mirror.baidubce.com"
+  ]
+}
+```
+
+:::tip
+阿里云镜像加速地址 [https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors](https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors)
+:::
+
+:::danger
+注意，一定要保证该文件符合 json 规范，否则 Docker 将不能启动。
+:::
+
+- 重新启动服务
+
+```sh
+sudo systemctl daemon-reload
+```
+
+```sh
+sudo systemctl restart docker
+```
+
+:::tip
+由于镜像服务可能出现宕机，建议同时配置多个镜像。
 :::
 
 ## Docker Compose安装
@@ -132,3 +175,26 @@ sudo rm /usr/local/bin/docker-compose
 
 ## Docker 可视化
 
+### Portainer 👍
+
+- Home: [https://www.portainer.io/](https://www.portainer.io/)
+
+安装
+
+```sh
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+```
+
+![20230623191449](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/20230623191449.png)
+
+### DockerUI
+
+> DockerUI是一个易用且轻量化的 Docker 管理工具，透过 Web 界面的操作，更方便对于 Docker 指令不熟悉的用户更容易操作 Docker 。
+
+安装
+
+```sh
+docker run -d --name docker.ui --restart always -v /var/run/docker.sock:/var/run/docker.sock -p 8010:8999 joinsunsoft/docker.ui
+```
+
+![20230623192204](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/20230623192204.png)
