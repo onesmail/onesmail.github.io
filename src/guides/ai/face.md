@@ -22,12 +22,16 @@ outline: deep
 
 - Github: [https://github.com/davidsandberg/facenet](https://github.com/davidsandberg/facenet)
 
-### 其他Demo
+## faceai
+
+- Github: [https://github.com/vipstone/faceai](https://github.com/vipstone/faceai)
+
+## 其他Demo
 
 - [Facial-Expression-Recognition](https://github.com/xionghc/Facial-Expression-Recognition)
 - [Face-Detection-JavaScript](https://github.com/WebDevSimplified/Face-Detection-JavaScript)
 
-### 参考
+## 参考
 
 - [GitHub 6大热门实时人脸识别开源项目！哪个最适合初级开发者？](https://juejin.cn/post/7013165617503010829)
 - [【JS】实时人脸识别](https://www.bilibili.com/video/BV1Km4y1t7Gb/?spm_id_from=333.337.search-card.all.click&vd_source=9747392aa6fbe4d90fefdb0e8ca5055f)
