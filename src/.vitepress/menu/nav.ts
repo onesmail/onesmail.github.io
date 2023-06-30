@@ -10,6 +10,11 @@ const nav = [
         activeMatch: '/guides/server/',
     },
     {
+        text: 'AI',
+        link: '/guides/ai/face',
+        activeMatch: '/guides/ai/',
+    },
+    {
         text: '代码片段',
         link: '/guides/snippets/client/javascript',
         activeMatch: '/guides/snippets/client/javascript',
