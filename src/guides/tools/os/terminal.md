@@ -99,6 +99,12 @@ oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\powerline.omp.json | Invoke-
 .$PROFILE
 ```
 
+### 去掉版权信息
+
+在命令行的末尾添加一个空格和`-Nologo`参数。
+
+![20230701180058](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/20230701180058.png)
+
 ## x-cmd
 
 > Linux 集成式终端命令行工具X 命令的起点
