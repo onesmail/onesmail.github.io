@@ -18,7 +18,7 @@ export default [
         items: [
             {
                 text: '笔记',
-                link: '/guides/web/vue/note/vite',
+                link: '/guides/web/vue/note/index',
             },
             {
                 text: '示例',
