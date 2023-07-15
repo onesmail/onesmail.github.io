@@ -1,6 +1,16 @@
 export default [
     {
-        text: 'Examples',
+        text: 'C#',
+        collapsed: true,
+        items: [
+            {
+                text: '工作流',
+                link: '/guides/server/csharp/workflow'
+            }
+        ],
+    },
+    {
+        text: '.Net Core',
         items: [
             {
                 text: '323423',

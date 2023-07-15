@@ -6,7 +6,7 @@ const nav = [
     },
     {
         text: '后端',
-        link: '/guides/server/index',
+        link: '/guides/server/csharp/workflow',
         activeMatch: '/guides/server/',
     },
     {

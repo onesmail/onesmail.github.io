@@ -74,6 +74,10 @@ export default [
                 link: '/guides/web/framework/qrcode',
             },
             {
+                text: 'webgl',
+                link: '/guides/web/framework/webgl',
+            },
+            {
                 text: '其他',
                 link: '/guides/web/framework/other',
             },

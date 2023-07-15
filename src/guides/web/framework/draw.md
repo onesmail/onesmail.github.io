@@ -13,6 +13,15 @@ outline: deep
 
 ![640 (1)](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/640%20(1).png)
 
+## excalidraw-cn
+>
+> Excalidraw-CN 是支持中文手写和多画布的 Excalidraw 白板工具。Excalidraw-CN is a whiteboard supporting Chinese hand draw font and multi-canvas based on Excalidraw.
+
+- Github: [https://github.com/korbinzhao/excalidraw-cn](https://github.com/korbinzhao/excalidraw-cn)
+- Demo: [https://handraw.top/](https://handraw.top/)
+
+![20230709191111](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/20230709191111.png)
+
 ## rough
 
 > Rough.js 是一个轻量级的（大约 8k），基于 Canvas 的可以绘制出粗略的手绘风格的图形库。该库提供绘制线条、曲线、弧线、多边形、圆形和椭圆的基础能力，同时支持绘制 SVG 路径。除此之外，Rough.js 还提供了大量的可自定义选项，可以调整线宽、线条颜色、填充颜色、字体样式、背景颜色等，以使图形更加个性化。
@@ -31,5 +40,3 @@ outline: deep
 - Demo: [http://szimek.github.io/signature_pad/](http://szimek.github.io/signature_pad/)
 
 ![640 (2)](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/640%20(2).png)
-
-
