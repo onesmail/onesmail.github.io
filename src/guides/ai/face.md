@@ -10,6 +10,12 @@ outline: deep
 
 - Demo: [https://justadudewhohacks.github.io/face-api.js/face_and_landmark_detection](https://justadudewhohacks.github.io/face-api.js/face_and_landmark_detection)
 
+## deepface
+
+> 适用于 Python 的轻量级人脸识别和面部属性分析（年龄、性别、情感和种族）库
+
+- Github: [https://github.com/serengil/deepface](https://github.com/serengil/deepface)
+
 ## CompreFace
 
 - Github: [https://github.com/exadel-inc/CompreFace](https://github.com/exadel-inc/CompreFace)

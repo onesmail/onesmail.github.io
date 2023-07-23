@@ -66,3 +66,171 @@ outline: deep
 - Docs: [https://party.js.org/](https://party.js.org/)
 
 ![20230609212733](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/20230609212733.png)
+
+## Lottie
+
+> Lottie是Airbnb推出的一个免费开源动画库，适用于Web/Android/iOS/Windows。它可以把bodymovin（AE插件）导出的json文件解析成动画，并且在各平台上进行呈现。
+
+### lottie-web
+
+> 在 Web、Android 和 iOS 以及 React Native 上原生渲染 After Effects 动画。
+
+- Github: [https://github.com/airbnb/lottie-web](https://github.com/airbnb/lottie-web)
+
+### lottiefiles
+
+> LottieFiles 提供了很多设计师上传的 Lottie 动画，并提供预览的效果，并且可以直接下载成 JSON ，或者生成二维码，可供 Lottie App 扫描看效果。
+
+- lottiefiles: [https://lottiefiles.com/](https://lottiefiles.com/)
+
+### vue3-lottie
+
+> 一个简单的 Vue 3 组件，用于在 Vue 3 中使用 Lottie 动画
+
+- Github: [https://github.com/megasanjay/vue3-lottie](https://github.com/megasanjay/vue3-lottie)
+
+安装
+
+```bash
+npm install vue3-lottie@latest --save
+```
+
+全局注册组件
+
+```javascript
+// main.js
+import { createApp } from 'vue'
+import Vue3Lottie from 'vue3-lottie'
+
+createApp(App).use(Vue3Lottie).mount('#app')
+```
+
+本地导入组件
+
+```javascript
+import { Vue3Lottie } from 'vue3-lottie'
+
+export default {
+  components: {
+    Vue3Lottie,
+  },
+}
+
+```
+
+在模板中使用该组件
+
+```javascript
+<template>
+  <Vue3Lottie :animationData="AstronautJSON" :height="200" :width="200" />
+</template>
+
+<script>
+import { Vue3Lottie } from 'vue3-lottie'
+
+import AstronautJSON from './astronaut.json'
+
+export default {
+  components: {
+    Vue3Lottie,
+  },
+  data() {
+    return {
+      AstronautJSON,
+    }
+  },
+}
+</script>
+
+```
+
+:::tip
+
+- 如果遇到 TS 错误，请尝试 use(Vue3Lottie, { name: "Vue3Lottie" })
+- 要为 Volar 类型检查定义全局组件，您需要添加
+
+```javascript
+// components.d.ts
+declare module '@vue/runtime-core' {
+  export interface GlobalComponents {
+    LottieAnimation: typeof import('vue3-lottie')['Vue3Lottie']
+  }
+}
+export {}
+```
+
+- 如果需要，重命名要使用的组件
+
+``` javascript
+app.use(Vue3Lottie, { name: 'LottieAnimation' }) // use in template <LottieAnimation />
+
+```
+
+:::
+
+### lottie-vuejs
+
+> lottie-vuejs 是一个简单的 VueJS 包装器，用于 lottie-web。它将关键的 lottie-web 功能包含在一个 vue 组件插件中。利用 lottie-vuejs 快速、几乎毫不费力地将 lottie 功能引入您的 VueJS 项目。
+
+- Github: [https://github.com/SuperbuffNL/lottie-vuejs](https://github.com/SuperbuffNL/lottie-vuejs)
+
+安装
+
+```bash
+npm install --save lottie-vuejs
+```
+
+全局注册
+
+```javascript
+import Vue from 'vue'
+import LottieAnimation from "lottie-vuejs/src/LottieAnimation.vue"; // import lottie-vuejs
+
+Vue.use(LottieAnimation); // add lottie-animation to your global scope
+
+new Vue({
+  render: h => h(App)
+}).$mount('#app')
+
+```
+
+组件内引用
+
+```javascript
+<script>
+import LottieAnimation from "lottie-vuejs/src/LottieAnimation.vue"; // import lottie-vuejs
+
+export default {
+  components: {
+      LottieAnimation
+  },
+  data: () => ({
+    ...
+  })
+};
+</script>
+```
+
+基本使用
+
+```javascript
+<lottie-animation
+    path="path/to/your/lottie-animation.json"
+/>
+```
+
+高级用法
+
+```javascript
+<lottie-animation
+    path="path/to/your/lottie-animation.json"
+    :loop="false"
+    :autoPlay="true"
+    :loopDelayMin="2.5"
+    :loopDelayMax="5"
+    :speed="1"
+    :width="256"
+    :height="256"
+    @AnimControl="setAnimController"
+/>
+```
