@@ -8,7 +8,7 @@ outline: deep
 
 ```typescript
 
-import { App, DirectiveBinding } from "vue";
+import type { App, DirectiveBinding } from "vue";
 
 let debounceTimer: NodeJS.Timeout | null, throttleTimer: NodeJS.Timeout | null
 
