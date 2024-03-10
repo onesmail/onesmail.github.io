@@ -24,6 +24,12 @@ git config --global user.email "332059976@qq.com"
 ssh-keygen -t rsa -C "332059976@qq.com"
 ```
 
+- 查看生成的SSH公钥（使用`powershell`或`git命令行`）
+
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+
 ## 配置信任的服务器HTTPS验证，错误信息
 
 ![微信截图_20230429222415](https://raw.githubusercontent.com/onesmail/onesmail.github.io/master/src/assset/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230429222415.png)

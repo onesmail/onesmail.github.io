@@ -21,7 +21,7 @@ outline: deep
 
 ### 3.安装`MesloLGM NF`字体
 
- [下载](htts://onesmail.github.io/assset/files/Meslo.zip)安装`MesloLGM NF`字体，下载完成后解压，全选右键点击安装即可自动安装
+ [下载](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Meslo.zip)安装`MesloLGM NF`字体，下载完成后解压，全选右键点击安装即可自动安装
 
 Github地址：[https://github.com/ryanoasis/nerd-fonts/releases](https://github.com/ryanoasis/nerd-fonts/releases)
 
@@ -47,7 +47,7 @@ notepad $profile
 - 默认会用记事本打开，第一次会提示显示找不到该文件，点击确定，输入
 
 ```sh
-oh-my-posh init pwsh | Invoke-Expression
+oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\multiverse-neon.omp.json | Invoke-Expression
 ```
 
 - 查看`powershell`配置文件路径

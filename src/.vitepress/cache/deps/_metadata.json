@@ -1,32 +1,29 @@
 {
-  "hash": "f9999845",
-  "browserHash": "c3e341a0",
+  "hash": "5dd62863",
+  "browserHash": "427cdacb",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "a193beae",
+      "fileHash": "7292445a",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "e0183fb7",
       "needsInterop": false
     },
     "@theme/index": {
       "src": "../../../../node_modules/vitepress/dist/client/theme-default/index.js",
       "file": "@theme_index.js",
-      "fileHash": "3bdb264e",
+      "fileHash": "aac4817a",
       "needsInterop": false
-    },
-    "vue-core-video-player": {
-      "src": "../../../../node_modules/vue-core-video-player/dist/vue-core-video-player.common.js",
-      "file": "vue-core-video-player.js",
-      "fileHash": "bed756e0",
-      "needsInterop": true
     }
   },
   "chunks": {
-    "chunk-Q6VIYKVI": {
-      "file": "chunk-Q6VIYKVI.js"
-    },
-    "chunk-OL3AADLO": {
-      "file": "chunk-OL3AADLO.js"
+    "chunk-V634PGSD": {
+      "file": "chunk-V634PGSD.js"
     }
   }
 }
