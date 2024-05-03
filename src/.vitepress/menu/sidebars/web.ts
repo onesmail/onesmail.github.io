@@ -26,21 +26,21 @@ export default [
             },
         ],
     },
-    {
-        text: 'React',
-        items: [
-            {
-                text: '插件',
-                collapsed: true,
-                items: [
-                    {
-                        text: 'vue3 html转PDF',
-                        link: '/guides/web/framework/vue3topdf',
-                    },
-                ],
-            },
-        ],
-    },
+    // {
+    //     text: 'React',
+    //     items: [
+    //         {
+    //             text: '插件',
+    //             collapsed: true,
+    //             items: [
+    //                 {
+    //                     text: 'vue3 html转PDF',
+    //                     link: '/guides/web/framework/vue3topdf',
+    //                 },
+    //             ],
+    //         },
+    //     ],
+    // },
     {
         text: '组件',
         collapsed: true,
