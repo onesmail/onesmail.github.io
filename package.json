@@ -1,11 +1,9 @@
 {
+    "type": "module",
     "scripts": {
         "docs:dev": "vitepress dev src",
         "docs:build": "vitepress build src",
         "docs:preview": "vitepress preview src"
-    },
-    "devDependencies": {
-        "vitepress": "^1.0.0-alpha.74"
     },
     "dependencies": {
         "@types/node": "^18.16.3",
@@ -19,5 +17,8 @@
         "vue3-gantt": "^1.1.8-2",
         "vue3-html2pdf": "^1.1.2",
         "vue3-simple-html2pdf": "^0.0.7"
+    },
+    "devDependencies": {
+        "vitepress": "^1.4.3"
     }
 }

@@ -78,6 +78,10 @@ export default [
                 link: '/guides/web/framework/webgl',
             },
             {
+                text: '拖拽',
+                link: '/guides/web/framework/drag',
+            },
+            {
                 text: '其他',
                 link: '/guides/web/framework/other',
             },
